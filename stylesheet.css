@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #E8EEEA;
+
+
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+}
+
+.wrapper .side-navigation{
+    
+    float: left;
+    height: 100%;
+    position: fixed;
+    width: 300px;
+    font-weight: bold;
+    background-color: #E1ECE5;
+    
+    
+
+}
+
+.profile-picture{
+    
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.profile-picture img{
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.mini-bio{
+    font-size: 15px;
+    font-weight: 400;
+    width: 250px;
+    margin-top: 10px;
+    margin: 30px;
+}
+
+nav{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+
+
+}
+
+nav ul li {
+    
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 60px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav ul li a:hover{
+    color: #104F55;
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #011502;
+}
+
+
+
+.side-navbar{
+    
+    
+    background-color: #E1ECE5;
+}
+
+.current{
+    color: #32746D;
+}
+
+.social-media-icons{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.social-media-icons a img{
+   height: 30px;
+   margin: 5.5px;
+    
+}
+
+.lets-connect{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main-section{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: left;
+    color: #011502 ;
+    width:100%;
+    margin-left: 300px;
+}
+
+.main-text{
+    margin-right: 200px;
+}
+
+.main-section .main-logo-name h1{
+    font-size:30px;
+    float: right;
+    margin: 25px;
+   
+}
+
+.main-page-title{
+    margin-top: 100px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.project-entry{
+    margin-bottom: 60px;
+  
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.project-entry .project-name{
+    font-size: 25px;
+}
+
+.indentation{
+    margin-left: 30px;
+}
+
+.project-entry .project-date{
+    font-size: 18px;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.project-entry .project-role{
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.project-entry .project-description{
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 10px;
+    font-size: 19px;
+    
+}
+
+.project-entry .project-link{
+    margin-top: 10px;
+}
+
+.project-entry .project-link p a{
+    color: #104F55;
+    font-size: 18px;
+   
+}
