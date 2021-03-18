@@ -8,7 +8,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #E8EEEA;
     display: flex;
-
+    align-items: flex-start;
 }
 
 
