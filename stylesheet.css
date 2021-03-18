@@ -7,21 +7,18 @@
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #E8EEEA;
-
-
-}
-
-.wrapper{
     display: flex;
-    position: relative;
+
 }
 
-.wrapper .side-navigation{
+
+
+.side-navigation{
     
     float: left;
     height: 100%;
     position: fixed;
-    width: 300px;
+    width: 20%;
     font-weight: bold;
     background-color: #E1ECE5;
     
@@ -29,18 +26,28 @@ body {
 
 }
 
-.profile-picture{
-    
+ .main-section{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: right;
+    color: #011502 ;
+    width: 80%;
+    margin-left: 30%;
+}
+
+ .side-navigation .profile-picture{
+    width: 30px;
     margin: 20px;
     margin-top: 40px;
 }
 
-.profile-picture img{
-    max-width: 250px;
-    border-radius: 10px;
+.side-navigation .profile-picture img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100px;
+    
 }
 
-.mini-bio{
+.side-navigation .mini-bio{
     font-size: 15px;
     font-weight: 400;
     width: 250px;
@@ -78,7 +85,6 @@ nav ul li a{
 
 .side-navbar{
     
-    
     background-color: #E1ECE5;
 }
 
@@ -87,34 +93,36 @@ nav ul li a{
 }
 
 .social-media-icons{
-    margin-top: 30px;
-    margin-left: 40px;
+  margin-top: calc(1vh/1vw);
+   display: flex;
+   justify-content: space-evenly;
+
+
 }
+.social-media-icons a {
+    align-items: center;
+}
+
 .social-media-icons a img{
-   height: 30px;
-   margin: 5.5px;
-    
+   width: 2vw;
 }
 
-.lets-connect{
-    margin-top: 20px;
+.side-navigation .lets-connect p{
+    margin-top: calc(1vh/1vw);
     text-align: center;
+    font-size: 1.7vw;
 }
 
-.main-section{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    float: left;
-    color: #011502 ;
-    width:100%;
-    margin-left: 300px;
-}
+
+
+
 
 .main-text{
     margin-right: 200px;
 }
 
 .main-section .main-logo-name h1{
-    font-size:30px;
+    font-size: 50px;
     float: right;
     margin: 25px;
    
@@ -126,6 +134,10 @@ nav ul li a{
     margin-left: 50px;
 }
 
+
+
+
+/*Project Entry*/
 .project-entry{
     margin-bottom: 60px;
   
@@ -172,6 +184,7 @@ nav ul li a{
    
 }
 
+/*Blog Content*/
 .blog-content{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-left: 100px ;
@@ -216,4 +229,31 @@ a:visited{
     font-weight: 200;
     letter-spacing: .75px;
 
+}
+
+
+
+/*Media Queries*/
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+   
+    
+}
+
+@media screen and (max-width: 990px) {
+    /* start of medium tablet styles, when width is less than or equal to 990 */
+
+   
+    
+    
+}
+
+    
+@media screen and (max-width: 479px) {
+    /* start of phone styles */
+
+   
+   
+    
+    
 }
