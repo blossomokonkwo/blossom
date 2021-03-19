@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -14,28 +15,23 @@ body {
 
 
 .side-navigation{
-    
     float: left;
     height: 100%;
     position: fixed;
     width: 20%;
     font-weight: bold;
     background-color: #E1ECE5;
+    display: flex;
+    flex-direction: column;
     
     
 
 }
 
- .main-section{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    float: right;
-    color: #011502 ;
-    width: 80%;
-    margin-left: 30%;
-}
+ 
 
  .side-navigation .profile-picture{
-    width: 30px;
+    align-self: center;
     margin: 20px;
     margin-top: 40px;
 }
@@ -43,32 +39,30 @@ body {
 .side-navigation .profile-picture img{
     object-fit: cover;
     border-radius: 50%;
-    width: 100px;
-    
+    width: 10vw;
 }
 
 .side-navigation .mini-bio{
-    font-size: 15px;
+    font-size: 1vw;
     font-weight: 400;
-    width: 250px;
-    margin-top: 10px;
-    margin: 30px;
+    margin: 10%;
+    
 }
 
 nav{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
     
-
-
 }
 
 nav ul li {
-    
-    margin-top: 30px;
-    font-size: 30px;
-    margin-left: 60px;
+    margin-top: 5%;
+    font-size: 2vw;
     text-decoration: none;
     list-style-type: none;
+    align-content: center;
 }
 
 nav ul li a:hover{
@@ -92,15 +86,17 @@ nav ul li a{
     color: #32746D;
 }
 
-.social-media-icons{
-  margin-top: calc(1vh/1vw);
+.side-navigation .social-media-icons{
+   margin-top: calc(1vh/1vw);
    display: flex;
    justify-content: space-evenly;
+
 
 
 }
 .social-media-icons a {
     align-items: center;
+    
 }
 
 .social-media-icons a img{
@@ -108,29 +104,36 @@ nav ul li a{
 }
 
 .side-navigation .lets-connect p{
-    margin-top: calc(1vh/1vw);
+    margin-top: 5%;
     text-align: center;
     font-size: 1.7vw;
+    
 }
 
 
 
-
+.main-section{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: right;
+    color: #011502 ;
+    width: 80%;
+    margin-left: 25%;
+    
+}
 
 .main-text{
-    margin-right: 200px;
+   margin-right: 10%;
 }
 
 .main-section .main-logo-name h1{
-    font-size: 50px;
+    font-size: 2.7vw;
     float: right;
-    margin: 25px;
+    margin: 2%;
    
 }
 
 .main-page-title{
-    margin-top: 100px;
-    font-size: 30px;
+    margin-top: 10%;
     margin-left: 50px;
 }
 
@@ -140,37 +143,33 @@ nav ul li a{
 /*Project Entry*/
 .project-entry{
     margin-bottom: 60px;
-  
     margin-top: 40px;
-    margin-left: 90px;
+    margin-left: 100px;
+
 }
 
 .project-entry .project-name{
-    font-size: 25px;
 }
 
 .indentation{
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .project-entry .project-date{
-    font-size: 18px;
     margin-top: 10px;
     font-style: italic;
     font-weight: 200;
 }
 
 .project-entry .project-role{
-    font-size: 22px;
     margin-top: 10px;
 }
 
 .project-entry .project-description{
     letter-spacing: .65px;
-    font-size: 18px;
     font-weight: 200;
     margin-top: 10px;
-    font-size: 19px;
+    max-width: 75%;
     
 }
 
@@ -180,7 +179,6 @@ nav ul li a{
 
 .project-entry .project-link p a{
     color: #104F55;
-    font-size: 18px;
    
 }
 
@@ -240,13 +238,7 @@ a:visited{
     
 }
 
-@media screen and (max-width: 990px) {
-    /* start of medium tablet styles, when width is less than or equal to 990 */
 
-   
-    
-    
-}
 
     
 @media screen and (max-width: 479px) {
